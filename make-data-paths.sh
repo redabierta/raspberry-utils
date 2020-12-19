@@ -2,7 +2,6 @@
 
 # Create mysql user
 
-sudo userdel mysql
 sudo useradd -u 999 mysql
 
 # Create and make mysql owner of the data folder
@@ -12,7 +11,6 @@ sudo chown -R mysql:mysql /data/mysql
 
 # Create www-data user
 
-sudo userdel www-data
 sudo useradd -u 82 www-data
 
 # Create and make www-data owner of the data folder
